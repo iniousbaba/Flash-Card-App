@@ -17,7 +17,7 @@ current_card = {}
 def save_data():
     french_english_data.remove(current_card)
     words_to_learn_data = pandas.DataFrame(french_english_data)
-    words_to_learn_data.to_csv("data/words_to_learn.csv", index="False")
+    words_to_learn_data.to_csv("data/words_to_learn.csv", index=False)
 
 
 # ***************************************** FLIP FLASH CARDS ****************************************************
